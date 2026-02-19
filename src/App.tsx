@@ -21,7 +21,7 @@ function App() {
     <>
       <BrowserRouter>
         <div className="flex items-center justify-center min-h-screen">
-          <div className="relative w-full max-w-md h-dvh  overflow-hidden flex flex-col shadow-2xl">
+          <div className="relative w-full max-w-md min-h-screen  overflow-hidden flex flex-col shadow-2xl">
             <div className="flex-1 overflow-y-auto no-scrollbar ">
               <Routes>
                 <Route path="/" element={<DiscoveryScreen peopleList={peopleList} />} />
