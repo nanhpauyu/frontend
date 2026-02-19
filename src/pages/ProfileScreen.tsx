@@ -6,7 +6,7 @@ const ProfileScreen = ({user}:{user:People}) => {
   const [distance, setDistance] = useState(25);
 
   return (
-    <div className="min-h-screen bg-base-200 pb-10 pt-6">
+    <div className="min-h-screen bg-base-200 pb-10 ">
 
 
       {/* 2. Profile Photo Edit Area */}

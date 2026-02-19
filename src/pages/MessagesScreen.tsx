@@ -7,7 +7,7 @@ const MessagesScreen = ({peopleList}:PeopleList) => {
 
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-5">
         <SearchComp />
         <Matches peopleList={peopleList}/>
         <MessageList peopleList={peopleList || []}/>
