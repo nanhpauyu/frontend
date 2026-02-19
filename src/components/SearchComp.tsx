@@ -1,4 +1,4 @@
-import { Search, Settings, Palette, MessageCircle, Compass, User, Heart } from 'lucide-react';
+import { Search,  } from 'lucide-react';
 
 const SearchComp = () => {
     return (

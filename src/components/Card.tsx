@@ -1,4 +1,4 @@
-import { Heart, Compass, ArrowBigRight } from 'lucide-react';
+import {  Compass,  } from 'lucide-react';
 import type { CardProps } from '../types';
 
 

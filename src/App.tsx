@@ -3,8 +3,8 @@ import DiscoveryScreen from './pages/DiscoveryScreen';
 import MessagesScreen from './pages/MessagesScreen';
 import ProfileScreen from './pages/ProfileScreen';
 import Navigation from './components/Navigation';
-import { useState, useEffect } from 'react';
-import type { People, PeopleList, Message } from './types';
+import { useState,  } from 'react';
+import type { People,  } from './types';
 import { burmesePeople, matchPeopleList, myProfile,  } from './data';
 import MessageDetailScreen from './pages/MessageDetailScreen';
 
@@ -12,9 +12,9 @@ import MessageDetailScreen from './pages/MessageDetailScreen';
 
 function App() {
 
-  const [peopleList, setPeopleList] = useState<People[]>(burmesePeople.filter((user) => !user.match).slice(0, 5));
-  const [matches, setMatches] = useState<People[]>(matchPeopleList)
-  const [profile, setProfile] = useState<People>(myProfile)
+  const [peopleList, ] = useState<People[]>(burmesePeople.filter((user) => !user.match).slice(0, 5));
+  const [matches, ] = useState<People[]>(matchPeopleList)
+  const [profile, ] = useState<People>(myProfile)
 
 
   return (

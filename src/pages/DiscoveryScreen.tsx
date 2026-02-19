@@ -1,5 +1,3 @@
-import Card from "../components/Card";
-import { Heart, ArrowBigRight } from 'lucide-react';
 import type { People, PeopleList, } from "../types";
 import { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';

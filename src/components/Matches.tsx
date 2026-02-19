@@ -1,5 +1,5 @@
 import Avatar from "./Avatar";
-import type { PeopleList, People } from "../types";
+import type { PeopleList,  } from "../types";
 import { useNavigate } from 'react-router-dom';
 
 

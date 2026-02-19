@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
-import { type Message, type PeopleList, type People } from '../types';
+import { type Message, type People } from '../types';
 import { matchPeopleList, } from '../data';
 import Avatar from '../components/Avatar';
 
@@ -9,7 +9,7 @@ import Avatar from '../components/Avatar';
 const MessageDetailScreen = () => {
     const scrollRef = useRef<HTMLDivElement>(null);
     const [messages, setMessages] = useState<Message[]>([])
-    const [matchPeopleLista, setMatchPeopleLista] = useState<People[]>(matchPeopleList)
+    const [matchPeopleLista, ] = useState<People[]>(matchPeopleList)
     const [currentUser, setCurrentUser] = useState<People>({} as People)
     const [startUpLoading, setStartUpLoading] = useState<boolean>(false)
 
