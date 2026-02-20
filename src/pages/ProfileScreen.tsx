@@ -1,10 +1,9 @@
 import { useState } from "react";
 import type { People } from "../types";
-import Navigation from "../components/Navigation";
 import { useOutletContext } from 'react-router-dom';
 
 const ProfileScreen = () => {
-  const { peopleList, matches, profile } = useOutletContext<{ peopleList: People[], matches: People[], profile: People }>();
+  const {profile } = useOutletContext<{ peopleList: People[], matches: People[], profile: People }>();
   const [isDiscoveryOn, setIsDiscoveryOn] = useState(true);
   const [minAge, setMinAge] = useState(25);
   const [maxAge, setMaxAge] = useState(35);

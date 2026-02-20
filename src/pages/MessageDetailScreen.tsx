@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from 'react';
 import { type Message, type People } from '../types';
 import { matchPeopleList, } from '../data/data';
 import Avatar from '../components/Avatar';
-import Navigation from '../components/Navigation';
 
 
 

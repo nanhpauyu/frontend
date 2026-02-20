@@ -1,4 +1,4 @@
-import type { People, PeopleList, } from "../types";
+import type { People, } from "../types";
 import { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import MatchFoundNoti from "../components/MatchFoundNoti";

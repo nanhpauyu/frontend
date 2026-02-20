@@ -1,5 +1,4 @@
 import type { PeopleList } from "../types";
-import Avatar from "./Avatar";
 import { useNavigate } from 'react-router-dom';
 
 const MessageList = ({ peopleList }: PeopleList) => {
@@ -13,12 +12,6 @@ const MessageList = ({ peopleList }: PeopleList) => {
                         peopleList.filter((user) => user.messages?.length !== 0).map((user) => {
 
                             const userMessage = user.messages?.at(-1)?.text;
-                            var lastMessage;
-                            if (userMessage) {
-                                if (userMessage.length > 20) {
-                                    lastMessage = userMessage.substring(0, 18) + "..."
-                                }
-                            }
 
                             return (
 
