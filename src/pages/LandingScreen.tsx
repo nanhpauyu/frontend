@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const LandingScreen = () => {
   return (
-    <div className="relative h-screen w-full bg-[#F1A1B1] overflow-hidden flex flex-col">
+    <div className="relative min-h-screen w-full bg-[#F1A1B1] overflow-hidden flex flex-col">
 
       {/* 1. Masonry Photo Grid Area */}
 
