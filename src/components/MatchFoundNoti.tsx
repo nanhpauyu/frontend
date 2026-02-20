@@ -6,7 +6,7 @@ const MatchFoundNoti = ({ id }: { id: string }) => {
     const navigate = useNavigate();
 
     const handleCloseAndGoToMessages = () => {
-        navigate(`/messages/${id}`);
+        navigate(`/message/${id}`);
     };
 
     return (

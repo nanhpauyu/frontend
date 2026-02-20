@@ -7,14 +7,14 @@ const Navigation = ({ }) => {
         <>
             <div className="dock dock-sm ">
                 <NavLink
-                    to="/"
+                    to="/discovery"
                     className={({ isActive }) => isActive ? 'dock-active text-pink-500' : 'text-gray-500'}
                 >
                     <HomeIcon size={30} />
                 </NavLink>
 
                 <NavLink
-                    to="/messages"
+                    to="/message"
                     className={({ isActive }) => isActive ? 'dock-active text-pink-500' : 'text-gray-500'}
                 >
                     <div className="relative">

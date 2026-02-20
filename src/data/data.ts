@@ -1,4 +1,5 @@
-import type { People } from "./types";
+import type { People } from "../types";
+export var isLoggedIn = false;
 export const myProfile: People = {
   id: "a5566778-8899-00aa-bbcc-ddeeff112233",
   name: "မေသူကျော်",
