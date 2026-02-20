@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const LandingScreen = () => {
   return (
-    <div className="relative min-h-screen w-full bg-[#F1A1B1] overflow-hidden flex flex-col">
+    <div className="relative h-screen w-full bg-[#F1A1B1] overflow-hidden flex flex-col">
 
       {/* 1. Masonry Photo Grid Area */}
 
@@ -50,7 +50,7 @@ const LandingScreen = () => {
       </div>
 
       {/* 2. Text and Button Area */}
-      <div className="p-8 pb-12 bg-[#F1A1B1] space-y-6">
+      <div className="p-8 pb-12 bg-[#F1A1B1] space-y-6 pb-10">
         <h1 className="text-5xl font-bold text-white leading-[1.1]">
           Find your <br /> partner in life
         </h1>

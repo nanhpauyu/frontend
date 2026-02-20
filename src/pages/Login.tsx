@@ -12,21 +12,18 @@ const Login = () => {
     }
     return (
 
-        <div className="flex flex-col items-center justify-center h-full p-6 ">
-
-            <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
-                <legend className="fieldset-legend">အကောင့်ဝင်ရန်</legend>
-
-                <label className="label">အီးမေးလ်လိပ်စာ</label>
-                <input type="email" className="input"  />
-
-                <label className="label">စကားဝှက်</label>
-                <input type="password" className="input"  />
-
-                <button className="btn btn-neutral mt-4" onClick={onLoginClick}>ဝင်ရောက်မည်</button>
-            </fieldset>
-
-        </div>
+        < div className="p-8 space-y-6" >
+            <h1 className="text-3xl font-bold">အကောင့်ဝင်ရန်</h1>
+            <div className="form-control">
+                <input type="email" placeholder="အီးမေးလ်လိပ်စာ" className="input input-bordered rounded-2xl h-14"  />
+            </div>
+            <div className="form-control">
+                <input type="password" placeholder="စကားဝှက်" className="input input-bordered rounded-2xl h-14"
+                    />
+            </div>
+            <button className="btn flex-1 btn-block bg-[#2AB47D] border-none text-white h-14 rounded-2xl font-bold transition-transform active:scale-95" onClick={onLoginClick}>ဝင်ရောက်မည်</button>
+            
+        </div >
     );
 
 }
